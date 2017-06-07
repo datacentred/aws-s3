@@ -41,7 +41,7 @@ module AWS #:nodoc:
   # 
   # See more connection details at AWS::S3::Connection::Management::ClassMethods.
   module S3
-    constant :DEFAULT_HOST, 's3.amazonaws.com'
+    constant :DEFAULT_HOST, 'storage.datacentred.io'
     
     # AWS::S3::Base is the abstract super class of all classes who make requests against S3, such as the built in
     # Service, Bucket and S3Object classes. It provides methods for making requests, inferring or setting response classes,
